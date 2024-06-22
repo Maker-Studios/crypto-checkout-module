@@ -1,6 +1,6 @@
 'use client'
 
-import Payout from '@/components/payout/Payout'
+import Checkout from '@/components/payout/Checkout'
 import { useState } from 'react'
 
 const AppLogo = (
@@ -43,7 +43,7 @@ const HomePage = () => {
   return (
     <>
       <div className="min-h-screen grid place-items-center bg-[#ECECEC]">
-        <Payout
+        <Checkout
           title="Payment Modal Test"
           pricing={1}
           logo={AppLogo}

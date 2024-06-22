@@ -13,7 +13,7 @@ import TransactionResult from './steps/TransactionResult'
 import { useAccount } from 'wagmi'
 import { cn } from '@/lib/utils'
 
-interface PayoutProps {
+interface CheckoutProps {
   title: string
   pricing: number
   stripe?: boolean
@@ -29,7 +29,7 @@ interface PayoutProps {
   onPaymentMethodSubmit: (params: PaymentMethodSubmitData) => Promise<void>
 }
 
-const Payout = ({
+const Checkout = ({
   title,
   logo,
   stripe = true,
@@ -42,7 +42,7 @@ const Payout = ({
   confirmations = 1,
   pricingDescription,
   onPaymentMethodSubmit,
-}: PayoutProps) => {
+}: CheckoutProps) => {
   const [currentStep, setCurrentStep] = useState<CHECKOUTSTEPS>(CHECKOUTSTEPS['continue'])
 
   const [email, setEmail] = useState('')
@@ -165,4 +165,4 @@ const Payout = ({
   )
 }
 
-export default Payout
+export default Checkout
