@@ -127,6 +127,6 @@ You can find all deployments to the same address (`0xc455efc865323704161B08bd90e
 
 Got to work on this with my amazing pod:
 
-[Moscode](https://twitter.com/meandchimso) - UI & micro-interactions
-[Leye](https://twitter.com/leyeconnect) - UI/UX & Graphics design
-[Bliss](https://twitter.com/ghostffcode) - Web3/Smart contract, UI & product development.
+- [Moscode](https://twitter.com/meandchimso) - UI & micro-interactions
+- [Leye](https://twitter.com/leyeconnect) - UI/UX & Graphics design
+- [Bliss](https://twitter.com/ghostffcode) - Web3/Smart contract, UI & product development.
