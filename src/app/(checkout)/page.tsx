@@ -42,7 +42,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="min-h-screen grid place-items-center">
+      <div className="min-h-screen grid place-items-center bg-[#ECECEC]">
         <Payout
           title="Payment Modal Test"
           pricing={1}
