@@ -114,13 +114,9 @@ const ContinuePayment = ({
               'p-4 border border-[#F0F0F0] rounded-[12px] w-full flex items-center justify-between font-geist text-[13px] font-semibold text-[#737373] transition-all duration-300 ease-in-out overflow-hidden',
               selectedMethod !== 'stripe' ? 'hover:opacity-85' : 'cursor-default'
             )}
+            onClick={() => handleSelect('stripe')}
           >
-            <input
-              className="hidden"
-              id="stripe"
-              checked={selectedMethod === 'stripe'}
-              onChange={() => handleSelect('stripe')}
-            />
+            <input className="hidden" id="stripe" checked={selectedMethod === 'stripe'} readOnly />
             <motion.span className="flex items-center gap-1 overflow-hidden relative">
               <AnimatePresence>
                 {selectedMethod === 'stripe' && (
@@ -155,13 +151,9 @@ const ContinuePayment = ({
             'p-4 border border-[#F0F0F0] rounded-[12px] w-full flex items-center justify-between font-geist text-[13px] font-semibold text-[#737373] transition-all duration-300 ease-in-out overflow-hidden',
             selectedMethod !== 'crypto' ? 'hover:opacity-85' : 'cursor-default'
           )}
+          onClick={() => handleSelect('crypto')}
         >
-          <input
-            className="hidden"
-            id="crypto"
-            checked={selectedMethod === 'crypto'}
-            onChange={() => handleSelect('crypto')}
-          />
+          <input className="hidden" id="crypto" checked={selectedMethod === 'crypto'} readOnly />
           <motion.span className="flex items-center gap-1 overflow-hidden relative">
             <AnimatePresence initial={false}>
               {selectedMethod === 'crypto' && (
