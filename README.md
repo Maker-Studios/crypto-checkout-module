@@ -115,7 +115,7 @@ const App = () => {
 
 ## Deployments
 
-You can find all deployments to the same address (`0xc455efc865323704161B08bd90eFf22181A3601C`) on ETH, OP & ARB. See links below:
+You can find all deployments to the same address (`0xc455efc865323704161B08bd90eFf22181A3601C`) on ETH, OP & ARB. It currently has a fee of 1% per checkout call. See links below:
 
 | Chains           | Deployment address                                                                                                               |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
